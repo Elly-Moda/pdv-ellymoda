@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nome": "Sutiã Renda",
+    "categoria": "Moda Íntima",
+    "codigo": "SR001",
+    "tamanho": "M",
+    "quantidade": 10,
+    "preco": 29.90
+  },
+  {
+    "id": 2,
+    "nome": "Calcinha Microfibra",
+    "categoria": "Moda Íntima",
+    "codigo": "CM002",
+    "tamanho": "G",
+    "quantidade": 15,
+    "preco": 15.90
+  },
+  {
+    "id": 3,
+    "nome": "Cueca Boxer",
+    "categoria": "Masculino",
+    "codigo": "CB003",
+    "tamanho": "GG",
+    "quantidade": 8,
+    "preco": 19.90
+  },
+  {
+    "id": 4,
+    "nome": "Pijama Feminino",
+    "categoria": "Moda Íntima",
+    "codigo": "PF004",
+    "tamanho": "P",
+    "quantidade": 5,
+    "preco": 49.90
+  },
+    "id": 5,
+    "nome": "Conjunto Sexy",
+    "categoria": "Moda Íntima",
+    "codigo": "PF004",
+    "tamanho": "P",
+    "quantidade": 10,
+    "preco": 49.90
+  },
+]
