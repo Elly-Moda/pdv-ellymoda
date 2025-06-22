@@ -1,28 +1,23 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
-// Rota inicial
 app.get('/', (req, res) => {
-  res.send('PDV Elly Moda Intima API rodando com sucesso!');
+    res.send('PDV - Elly Moda Íntima e Acessórios');
 });
 
-// Exemplo de rota de produtos
+app.get('/cliente', (req, res) => {
+    res.send('Aqui será o cadastro ou listagem de clientes');
+});
+
 app.get('/produtos', (req, res) => {
-  res.send('Listagem de produtos...');
+    res.send('Aqui será a lista de produtos');
 });
 
-// Exemplo de rota de vendas
 app.get('/vendas', (req, res) => {
-  res.send('Listagem de vendas...');
+    res.send('Aqui será o controle de vendas');
 });
 
-// Exemplo de rota de clientes
-app.get('/clientes', (req, res) => {
-  res.send('Listagem de clientes...');
-});
-
-// Start
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
+app.listen(port, () => {
+    console.log(`Servidor rodando na porta ${port}`);
 });
